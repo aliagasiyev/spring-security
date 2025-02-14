@@ -23,6 +23,6 @@ public class GreetingsController {
     @PreAuthorize("hasRole('ADMIN')")
     @GetMapping("/admin")
     public String admin() {
-        return "Hello From Admin";
+        return "Hello From Adminn";
     }
 }
